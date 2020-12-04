@@ -1,28 +1,64 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Dashboard />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Dashboard from './views/Dashboard.vue';
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Dashboard
   }
-}
+};
 </script>
 
 <style>
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'DIN_Light';
+  src: url(font/DINNextLTPro-Light.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'DIN_UltraLight';
+  src: url(font/DINNextLTPro-UltraLight.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'DIN_Regular';
+  src: url(font/DINNextLTPro-Regular.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'DIN_bold';
+  src: url(font/DINNextLTPro-Bold.otf) format('opentype');
+}
+@font-face {
+  font-family: 'DIN_medium';
+  src: url(font/DINNextLTPro-Medium.otf) format('opentype');
+}
+
+html {
+  background-color: #000;
+  font-family: 'DIN_Light';
+}
+
+a:hover {
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url(assets/back_960X1080.png);
 }
 </style>

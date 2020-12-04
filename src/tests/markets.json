@@ -1,0 +1,13 @@
+[
+  { "nemotecnico": "ASD1", "variacion_porcentaje": 2 },
+  { "nemotecnico": "ASD2", "variacion_porcentaje": 2 },
+  { "nemotecnico": "ASD3", "variacion_porcentaje": -2 },
+  { "nemotecnico": "ASD4", "variacion_porcentaje": -2 },
+  { "nemotecnico": "ASD5", "variacion_porcentaje": 2 },
+  { "nemotecnico": "ASD6", "variacion_porcentaje": -2 },
+  { "nemotecnico": "ASD7", "variacion_porcentaje": -2 },
+  { "nemotecnico": "ASD8", "variacion_porcentaje": -2 },
+  { "nemotecnico": "ASD9", "variacion_porcentaje": 2 },
+  { "nemotecnico": "ASD10", "variacion_porcentaje": 2 },
+  { "nemotecnico": "ASD11", "variacion_porcentaje": -2 }
+]
